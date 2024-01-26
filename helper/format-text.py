@@ -8,7 +8,7 @@ The HTML contents are copy and pasted into a text doc that is then parsed to cre
 import os
 import json
 
-with open('public\\helper\\cooking.txt', 'r') as input_file:
+with open('helper/cooking.txt', 'r') as input_file:
     content = input_file.read()
     output_list = []
 
@@ -20,18 +20,37 @@ with open('public\\helper\\cooking.txt', 'r') as input_file:
     # determine the recipe name and it's ingredients
     for i, section in enumerate(sections):
         ingredients = []
+        images = []
         ingredients_count = []
 
         results = section.split('\n')
+        #print(results)
 
         # string that we will extract recipe name from
         recipe_name_pre_trim = results[3].strip("</a>")
+
+        # for the recipe image
+        recipe_image_pre_trim = results[1].split('src="')
+        recipe_image_pre_trim.pop(0)
+        #print(recipe_image_pre_trim)
+        recipe_image_split = recipe_image_pre_trim[0].split('"')
+        images.append(recipe_image_split[0])
+        #print(recipe_image_split[0])
 
         # find the rightmost occurrence of '>'
         index_of_greater_than = recipe_name_pre_trim.rfind('>')
         if index_of_greater_than != -1:
             recipe = recipe_name_pre_trim[index_of_greater_than + 1:].strip()
         #print(recipe)
+
+        # for the igredient images
+        ingredients_image_pre_trim = results[7].split('src="')
+        #print(ingredients_image_pre_trim)
+        ingredients_image_pre_trim.pop(0)
+        for z, sub_ingredient_image in enumerate(ingredients_image_pre_trim):
+            ingredients_image_split = sub_ingredient_image.split('"')
+            images.append(ingredients_image_split[0])
+            #print(ingredients_image_split)
 
         # next we'll get the ingredients
         ingredients_line_pre_trim = results[7].split('<img alt="')
@@ -57,8 +76,8 @@ with open('public\\helper\\cooking.txt', 'r') as input_file:
         #print(ingredients_count)
 
         # now for this data, we need to create an output dictionary to json
-        keys = ['recipe', 'ingredients', 'count']
-        values = [recipe, ingredients, ingredients_count]
+        keys = ['recipe', 'ingredients', 'count', 'image']
+        values = [recipe, ingredients, ingredients_count, images]
         output_dict = {}
 
         for key, value in zip(keys, values):
@@ -70,6 +89,6 @@ with open('public\\helper\\cooking.txt', 'r') as input_file:
     print(output_list)
 
     json_data = json.dumps(output_list, indent=4)
-    json_filename = 'public\\helper\\output.json'
+    json_filename = 'helper/recipes.json'
     with open(json_filename, 'w') as json_file:
         json_file.write(json_data)

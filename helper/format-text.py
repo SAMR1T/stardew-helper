@@ -89,6 +89,8 @@ with open('helper/cooking.txt', 'r') as input_file:
     print(output_list)
 
     json_data = json.dumps(output_list, indent=4)
-    json_filename = 'helper/recipes.json'
+    json_filename = 'src/recipes.json'
     with open(json_filename, 'w') as json_file:
         json_file.write(json_data)
+
+#/usr/local/bin 

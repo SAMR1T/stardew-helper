@@ -1,7 +1,8 @@
 import './App.css';
+import {useState} from 'react';
 import recipesData from './recipes.json';
 
-function App() {
+function App() {  
   return (
     <div>
       <h1>Stardew Helper!</h1>
@@ -11,9 +12,9 @@ function App() {
           return(
             <>
               <li class="flex-item">
-                <Recipe image={item.image[0]}/>
+                <RecipeImage image={item.image[0]}/>
                 <RecipeName recipe={item.recipe}/>
-                <input type="checkbox"></input>
+                <RecipeCounter item={item.recipe} />
               </li>
             </>
           )
@@ -34,13 +35,19 @@ function App() {
   );
 }
 
-function Recipe(props) {
+function RecipeImage(props) {
   return (
     <div className="recipe">
       <img src={"https://stardewvalleywiki.com" + props.image} alt={props.recipe} height="60" />
     </div>
   );
 }
+
+recipesData.map((item, index) => {
+  return(
+    <RecipeImage image={item.image[0]} recipe={item.recipe} />
+  )
+})
 
 function RecipeName(props) {
   return (
@@ -50,10 +57,30 @@ function RecipeName(props) {
   );
 }
 
-recipesData.map((item, index) => {
-  return(
-    <Recipe image={item.image[0]} recipe={item.recipe} />
-  )
-})
+const useCounter = (initialCount = 0) => {
+  const [count, setCount] = useState(initialCount);
+
+  const increment = () => {
+    setCount(count + 1);
+  };
+
+  const decrement = () => {
+    setCount(count - 1);
+  };
+
+  return { count, increment, decrement };
+};
+
+const RecipeCounter = ({ item }) => {
+  const { count, increment, decrement } = useCounter();
+
+  return (
+    <div>
+      <button onClick={decrement}>-</button>
+      {count}
+      <button onClick={increment}>+</button>
+    </div>
+  );
+};
 
 export default App;

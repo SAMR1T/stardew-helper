@@ -13,6 +13,9 @@
             "/mediawiki/images/1/12/Omelet.png",
             "/mediawiki/images/thumb/2/26/Egg.png/24px-Egg.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -32,6 +35,9 @@
             "/mediawiki/images/thumb/5/57/Leek.png/24px-Leek.png",
             "/mediawiki/images/thumb/b/b1/Dandelion.png/24px-Dandelion.png",
             "/mediawiki/images/thumb/f/fe/Vinegar.png/24px-Vinegar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -48,6 +54,9 @@
             "/mediawiki/images/6/6e/Cheese_Cauliflower.png",
             "/mediawiki/images/thumb/a/aa/Cauliflower.png/24px-Cauliflower.png",
             "/mediawiki/images/thumb/a/a5/Cheese.png/24px-Cheese.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -67,6 +76,9 @@
             "/mediawiki/images/thumb/5/56/Sunfish.png/24px-Sunfish.png",
             "/mediawiki/images/thumb/8/82/Bream.png/24px-Bream.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -86,6 +98,9 @@
             "/mediawiki/images/thumb/d/db/Parsnip.png/24px-Parsnip.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png",
             "/mediawiki/images/thumb/f/fe/Vinegar.png/24px-Vinegar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -102,6 +117,9 @@
             "/mediawiki/images/0/0a/Vegetable_Medley.png",
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png",
             "/mediawiki/images/thumb/a/a4/Beet.png/24px-Beet.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -124,6 +142,9 @@
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png",
             "/mediawiki/images/thumb/8/8f/Hashbrowns.png/24px-Hashbrowns.png",
             "/mediawiki/images/thumb/6/6b/Pancakes.png/24px-Pancakes.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -143,6 +164,9 @@
             "/mediawiki/images/thumb/8/81/Squid.png/24px-Squid.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -162,6 +186,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/1/1d/Periwinkle.png/24px-Periwinkle.png",
             "/mediawiki/images/thumb/f/f3/Void_Mayonnaise.png/24px-Void_Mayonnaise.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -181,6 +208,9 @@
             "/mediawiki/images/thumb/a/a9/Sea_Cucumber.png/24px-Sea_Cucumber.png",
             "/mediawiki/images/thumb/d/d7/Tortilla.png/24px-Tortilla.png",
             "/mediawiki/images/thumb/2/2f/Blue_Jazz.png/24px-Blue_Jazz.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -200,10 +230,13 @@
             "/mediawiki/images/thumb/2/2e/Common_Mushroom.png/24px-Common_Mushroom.png",
             "/mediawiki/images/thumb/b/b1/Morel.png/24px-Morel.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
-        "recipe": "Pizza",
+        "recipe": "Pizz",
         "ingredients": [
             "Wheat Flour",
             "Tomato",
@@ -219,6 +252,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png",
             "/mediawiki/images/thumb/a/a5/Cheese.png/24px-Cheese.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -232,6 +268,9 @@
         "image": [
             "/mediawiki/images/2/24/Bean_Hotpot.png",
             "/mediawiki/images/thumb/5/5c/Green_Bean.png/24px-Green_Bean.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -248,6 +287,9 @@
             "/mediawiki/images/3/30/Glazed_Yams.png",
             "/mediawiki/images/thumb/5/52/Yam.png/24px-Yam.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -261,6 +303,9 @@
         "image": [
             "/mediawiki/images/c/cc/Carp_Surprise.png",
             "/mediawiki/images/thumb/a/a8/Carp.png/24px-Carp.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -277,6 +322,9 @@
             "/mediawiki/images/8/8f/Hashbrowns.png",
             "/mediawiki/images/thumb/c/c2/Potato.png/24px-Potato.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -293,6 +341,9 @@
             "/mediawiki/images/6/6b/Pancakes.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/2/26/Egg.png/24px-Egg.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -312,6 +363,9 @@
             "/mediawiki/images/thumb/e/e0/Salmon.png/24px-Salmon.png",
             "/mediawiki/images/thumb/f/f6/Amaranth.png/24px-Amaranth.png",
             "/mediawiki/images/thumb/d/d1/Kale.png/24px-Kale.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -334,6 +388,9 @@
             "/mediawiki/images/thumb/d/d7/Tortilla.png/24px-Tortilla.png",
             "/mediawiki/images/thumb/2/2d/Red_Cabbage.png/24px-Red_Cabbage.png",
             "/mediawiki/images/thumb/4/4e/Mayonnaise.png/24px-Mayonnaise.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -353,6 +410,9 @@
             "/mediawiki/images/thumb/1/11/Largemouth_Bass.png/24px-Largemouth_Bass.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -369,6 +429,9 @@
             "/mediawiki/images/0/08/Pepper_Poppers.png",
             "/mediawiki/images/thumb/f/f1/Hot_Pepper.png/24px-Hot_Pepper.png",
             "/mediawiki/images/thumb/a/a5/Cheese.png/24px-Cheese.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -382,6 +445,9 @@
         "image": [
             "/mediawiki/images/e/e1/Bread.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -401,6 +467,9 @@
             "/mediawiki/images/thumb/2/2f/Coconut.png/24px-Coconut.png",
             "/mediawiki/images/thumb/9/91/Shrimp.png/24px-Shrimp.png",
             "/mediawiki/images/thumb/2/2e/Common_Mushroom.png/24px-Common_Mushroom.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -417,6 +486,9 @@
             "/mediawiki/images/4/48/Trout_Soup.png",
             "/mediawiki/images/thumb/1/14/Rainbow_Trout.png/24px-Rainbow_Trout.png",
             "/mediawiki/images/thumb/6/6d/Green_Algae.png/24px-Green_Algae.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -436,6 +508,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/2/26/Egg.png/24px-Egg.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -458,6 +533,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/2/26/Egg.png/24px-Egg.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -477,6 +555,9 @@
             "/mediawiki/images/thumb/6/6e/Rhubarb.png/24px-Rhubarb.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -496,6 +577,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/2/26/Egg.png/24px-Egg.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -512,6 +596,9 @@
             "/mediawiki/images/0/08/Spaghetti.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -528,6 +615,9 @@
             "/mediawiki/images/8/84/Fried_Eel.png",
             "/mediawiki/images/thumb/9/91/Eel.png/24px-Eel.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -544,6 +634,9 @@
             "/mediawiki/images/f/f2/Spicy_Eel.png",
             "/mediawiki/images/thumb/9/91/Eel.png/24px-Eel.png",
             "/mediawiki/images/thumb/f/f1/Hot_Pepper.png/24px-Hot_Pepper.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -557,6 +650,9 @@
         "image": [
             "/mediawiki/images/4/41/Sashimi.png",
             "/mediawiki/images/thumb/f/fb/Fish.png/24px-Fish.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -576,6 +672,9 @@
             "/mediawiki/images/thumb/f/fb/Fish.png/24px-Fish.png",
             "/mediawiki/images/thumb/1/13/Seaweed.png/24px-Seaweed.png",
             "/mediawiki/images/thumb/d/da/Rice.png/24px-Rice.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -589,6 +688,9 @@
         "image": [
             "/mediawiki/images/d/d7/Tortilla.png",
             "/mediawiki/images/thumb/f/f8/Corn.png/24px-Corn.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -605,6 +707,9 @@
             "/mediawiki/images/4/45/Red_Plate.png",
             "/mediawiki/images/thumb/2/2d/Red_Cabbage.png/24px-Red_Cabbage.png",
             "/mediawiki/images/thumb/d/d5/Radish.png/24px-Radish.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -621,6 +726,9 @@
             "/mediawiki/images/7/73/Eggplant_Parmesan.png",
             "/mediawiki/images/thumb/8/8f/Eggplant.png/24px-Eggplant.png",
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -640,6 +748,9 @@
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/d/da/Rice.png/24px-Rice.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -656,6 +767,9 @@
             "/mediawiki/images/5/5d/Ice_Cream.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -678,6 +792,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/2/26/Egg.png/24px-Egg.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -694,6 +811,9 @@
             "/mediawiki/images/f/f4/Autumn%27s_Bounty.png",
             "/mediawiki/images/thumb/5/52/Yam.png/24px-Yam.png",
             "/mediawiki/images/thumb/6/64/Pumpkin.png/24px-Pumpkin.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -710,6 +830,9 @@
             "/mediawiki/images/5/59/Pumpkin_Soup.png",
             "/mediawiki/images/thumb/6/64/Pumpkin.png/24px-Pumpkin.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -729,6 +852,9 @@
             "/mediawiki/images/thumb/4/40/Bok_Choy.png/24px-Bok_Choy.png",
             "/mediawiki/images/thumb/6/6e/Cranberries.png/24px-Cranberries.png",
             "/mediawiki/images/thumb/d/dd/Artichoke.png/24px-Artichoke.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -745,6 +871,9 @@
             "/mediawiki/images/0/0b/Cranberry_Sauce.png",
             "/mediawiki/images/thumb/6/6e/Cranberries.png/24px-Cranberries.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -764,6 +893,9 @@
             "/mediawiki/images/thumb/e/e1/Bread.png/24px-Bread.png",
             "/mediawiki/images/thumb/6/6e/Cranberries.png/24px-Cranberries.png",
             "/mediawiki/images/thumb/3/31/Hazelnut.png/24px-Hazelnut.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -780,6 +912,9 @@
             "/mediawiki/images/7/79/Farmer%27s_Lunch.png",
             "/mediawiki/images/thumb/1/12/Omelet.png/24px-Omelet.png",
             "/mediawiki/images/thumb/d/db/Parsnip.png/24px-Parsnip.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -799,6 +934,9 @@
             "/mediawiki/images/thumb/e/e1/Bread.png/24px-Bread.png",
             "/mediawiki/images/thumb/3/34/Cave_Carrot.png/24px-Cave_Carrot.png",
             "/mediawiki/images/thumb/8/8f/Eggplant.png/24px-Eggplant.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -815,6 +953,9 @@
             "/mediawiki/images/f/ff/Dish_O%27_The_Sea.png",
             "/mediawiki/images/thumb/0/04/Sardine.png/24px-Sardine.png",
             "/mediawiki/images/thumb/8/8f/Hashbrowns.png/24px-Hashbrowns.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -834,6 +975,9 @@
             "/mediawiki/images/thumb/3/34/Cave_Carrot.png/24px-Cave_Carrot.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -850,6 +994,9 @@
             "/mediawiki/images/e/e0/Roots_Platter.png",
             "/mediawiki/images/thumb/3/34/Cave_Carrot.png/24px-Cave_Carrot.png",
             "/mediawiki/images/thumb/1/11/Winter_Root.png/24px-Winter_Root.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -863,6 +1010,9 @@
         "image": [
             "/mediawiki/images/3/36/Triple_Shot_Espresso.png",
             "/mediawiki/images/thumb/e/e9/Coffee.png/24px-Coffee.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -882,6 +1032,9 @@
             "/mediawiki/images/thumb/8/85/Flounder.png/24px-Flounder.png",
             "/mediawiki/images/thumb/3/33/Midnight_Carp.png/24px-Midnight_Carp.png",
             "/mediawiki/images/thumb/a/ac/Squid_Ink.png/24px-Squid_Ink.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -895,6 +1048,9 @@
         "image": [
             "/mediawiki/images/5/53/Algae_Soup.png",
             "/mediawiki/images/thumb/6/6d/Green_Algae.png/24px-Green_Algae.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -908,6 +1064,9 @@
         "image": [
             "/mediawiki/images/7/7e/Pale_Broth.png",
             "/mediawiki/images/thumb/f/f7/White_Algae.png/24px-White_Algae.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -927,6 +1086,9 @@
             "/mediawiki/images/thumb/3/3b/Wild_Plum.png/24px-Wild_Plum.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -943,6 +1105,9 @@
             "/mediawiki/images/7/77/Artichoke_Dip.png",
             "/mediawiki/images/thumb/d/dd/Artichoke.png/24px-Artichoke.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -965,6 +1130,9 @@
             "/mediawiki/images/thumb/2/2e/Common_Mushroom.png/24px-Common_Mushroom.png",
             "/mediawiki/images/thumb/d/d1/Kale.png/24px-Kale.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -978,6 +1146,9 @@
         "image": [
             "/mediawiki/images/1/18/Roasted_Hazelnuts.png",
             "/mediawiki/images/thumb/3/31/Hazelnut.png/24px-Hazelnut.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1000,6 +1171,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1019,6 +1193,9 @@
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png",
             "/mediawiki/images/thumb/f/fe/Vinegar.png/24px-Vinegar.png",
             "/mediawiki/images/thumb/d/d5/Radish.png/24px-Radish.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1038,6 +1215,9 @@
             "/mediawiki/images/thumb/9/9e/Blueberry.png/24px-Blueberry.png",
             "/mediawiki/images/thumb/1/19/Melon.png/24px-Melon.png",
             "/mediawiki/images/thumb/f/fc/Apricot.png/24px-Apricot.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1057,6 +1237,9 @@
             "/mediawiki/images/thumb/2/25/Blackberry.png/24px-Blackberry.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1076,6 +1259,9 @@
             "/mediawiki/images/thumb/6/6e/Cranberries.png/24px-Cranberries.png",
             "/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1095,6 +1281,9 @@
             "/mediawiki/images/thumb/e/e1/Bread.png/24px-Bread.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png",
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1114,6 +1303,9 @@
             "/mediawiki/images/thumb/2/2d/Red_Cabbage.png/24px-Red_Cabbage.png",
             "/mediawiki/images/thumb/f/fe/Vinegar.png/24px-Vinegar.png",
             "/mediawiki/images/thumb/4/4e/Mayonnaise.png/24px-Mayonnaise.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1133,6 +1325,9 @@
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png",
             "/mediawiki/images/thumb/4/48/Fiddlehead_Fern.png/24px-Fiddlehead_Fern.png",
             "/mediawiki/images/thumb/c/cc/Garlic.png/24px-Garlic.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1152,6 +1347,9 @@
             "/mediawiki/images/thumb/3/37/Poppy.png/24px-Poppy.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1168,6 +1366,9 @@
             "/mediawiki/images/9/95/Chowder.png",
             "/mediawiki/images/thumb/e/ed/Clam.png/24px-Clam.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1190,6 +1391,9 @@
             "/mediawiki/images/thumb/a/aa/Mussel.png/24px-Mussel.png",
             "/mediawiki/images/thumb/1/1d/Periwinkle.png/24px-Periwinkle.png",
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1206,6 +1410,9 @@
             "/mediawiki/images/7/78/Escargot.png",
             "/mediawiki/images/thumb/d/d2/Snail.png/24px-Snail.png",
             "/mediawiki/images/thumb/c/cc/Garlic.png/24px-Garlic.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1222,6 +1429,9 @@
             "/mediawiki/images/0/0a/Lobster_Bisque.png",
             "/mediawiki/images/thumb/9/9f/Lobster.png/24px-Lobster.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1241,6 +1451,9 @@
             "/mediawiki/images/thumb/6/6a/Maple_Syrup.png/24px-Maple_Syrup.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1263,6 +1476,9 @@
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/2/26/Egg.png/24px-Egg.png",
             "/mediawiki/images/thumb/0/06/Oil.png/24px-Oil.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1282,6 +1498,9 @@
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png",
             "/mediawiki/images/thumb/9/91/Shrimp.png/24px-Shrimp.png",
             "/mediawiki/images/thumb/9/90/Wild_Horseradish.png/24px-Wild_Horseradish.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1298,6 +1517,9 @@
             "/mediawiki/images/1/1a/Ginger_Ale.png",
             "/mediawiki/images/thumb/8/85/Ginger.png/24px-Ginger.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1317,6 +1539,9 @@
             "/mediawiki/images/thumb/6/69/Banana.png/24px-Banana.png",
             "/mediawiki/images/thumb/9/92/Milk.png/24px-Milk.png",
             "/mediawiki/images/thumb/a/a9/Sugar.png/24px-Sugar.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1336,6 +1561,9 @@
             "/mediawiki/images/thumb/3/38/Mango.png/24px-Mango.png",
             "/mediawiki/images/thumb/2/2f/Coconut.png/24px-Coconut.png",
             "/mediawiki/images/thumb/d/da/Rice.png/24px-Rice.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1349,6 +1577,9 @@
         "image": [
             "/mediawiki/images/f/f1/Poi.png",
             "/mediawiki/images/thumb/0/01/Taro_Root.png/24px-Taro_Root.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1368,6 +1599,9 @@
             "/mediawiki/images/thumb/2/2f/Coconut.png/24px-Coconut.png",
             "/mediawiki/images/thumb/f/fb/Pineapple.png/24px-Pineapple.png",
             "/mediawiki/images/thumb/f/f1/Hot_Pepper.png/24px-Hot_Pepper.png"
+        ],
+        "total": [
+            0
         ]
     },
     {
@@ -1387,6 +1621,9 @@
             "/mediawiki/images/thumb/a/ac/Squid_Ink.png/24px-Squid_Ink.png",
             "/mediawiki/images/thumb/2/2c/Wheat_Flour.png/24px-Wheat_Flour.png",
             "/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png"
+        ],
+        "total": [
+            0
         ]
     }
 ]

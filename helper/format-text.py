@@ -22,12 +22,14 @@ with open('helper/cooking.txt', 'r') as input_file:
         ingredients = []
         images = []
         ingredients_count = []
+        total = []
 
         results = section.split('\n')
         #print(results)
 
         # string that we will extract recipe name from
         recipe_name_pre_trim = results[3].strip("</a>")
+        total.append(0)
 
         # for the recipe image
         recipe_image_pre_trim = results[1].split('src="')
@@ -76,8 +78,8 @@ with open('helper/cooking.txt', 'r') as input_file:
         #print(ingredients_count)
 
         # now for this data, we need to create an output dictionary to json
-        keys = ['recipe', 'ingredients', 'count', 'image']
-        values = [recipe, ingredients, ingredients_count, images]
+        keys = ['recipe', 'ingredients', 'count', 'image', 'total']
+        values = [recipe, ingredients, ingredients_count, images, total]
         output_dict = {}
 
         for key, value in zip(keys, values):

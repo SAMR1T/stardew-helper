@@ -14,13 +14,14 @@ function App() {
               <li class="flex-item">
                 <RecipeImage image={item.image[0]}/>
                 <RecipeName recipe={item.recipe}/>
-                <RecipeCounter item={item.recipe} />
+                <RecipeCounter item={item} />
               </li>
             </>
           )
         })
       }
       </ul>
+      <SubmitButton recipesData={recipesData} />
       <ul class="flex-container wrap">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
@@ -57,28 +58,56 @@ function RecipeName(props) {
   );
 }
 
-const useCounter = (initialCount = 0) => {
-  const [count, setCount] = useState(initialCount);
+const useCounter = (item) => {
+  const [count, setCount] = useState(item.total);
 
   const increment = () => {
     setCount(count + 1);
+    const sum = parseFloat(item.total) + 1;
+    item.total = sum;
   };
 
   const decrement = () => {
     setCount(count - 1);
+    const sum = parseFloat(item.total) - 1;
+    item.total = sum;
   };
 
-  return { count, increment, decrement };
+  return { count, increment, decrement, item };
 };
 
 const RecipeCounter = ({ item }) => {
-  const { count, increment, decrement } = useCounter();
+  const { count, increment, decrement } = useCounter(item);
 
   return (
     <div>
       <button onClick={decrement}>-</button>
-      {count}
+      {item.total}
       <button onClick={increment}>+</button>
+    </div>
+  );
+};
+
+const SubmitButton = (recipesData) => {
+
+  const handleSubmit = () => {
+    console.log('Dataset:', recipesData);
+  };
+
+  const printIngredientsWithCountGreaterThanZero = () => {
+    recipesData.forEach(recipe => {
+      console.log(`Recipe: ${recipe.recipe}`);
+      recipe.ingredients.forEach(ingredient => {
+        console.log(`- ${ingredient.name}: ${ingredient.count * recipe.total}`);
+      });
+      console.log("------------");
+    });
+  };
+
+
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <button onClick={handleSubmit}>Submit</button>
     </div>
   );
 };

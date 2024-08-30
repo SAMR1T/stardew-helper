@@ -1,113 +1,68 @@
 import './App.css';
-import {useState} from 'react';
+import React, { useState } from 'react';
 import recipesData from './recipes.json';
 
-function App() {  
+const RecipeItem = ({ recipe, count, onIncrease, onDecrease }) => {
   return (
-    <div>
-      <h1>Stardew Helper!</h1>
-      <ul class="flex-container wrap">
-      {
-        recipesData.map((item, index) => {
-          return(
-            <>
-              <li class="flex-item">
-                <RecipeImage image={item.image[0]}/>
-                <RecipeName recipe={item.recipe}/>
-                <RecipeCounter item={item} />
-              </li>
-            </>
-          )
-        })
-      }
-      </ul>
-      <SubmitButton recipesData={recipesData} />
-      <ul class="flex-container wrap">
-        <li class="flex-item">1</li>
-        <li class="flex-item">2</li>
-        <li class="flex-item">3</li>
-        <li class="flex-item">4</li>
-        <li class="flex-item">5</li>
-        <li class="flex-item">6</li>
-        <li class="flex-item">7</li>
-        <li class="flex-item">8</li>
-      </ul>
-    </div>
-  );
-}
-
-function RecipeImage(props) {
-  return (
-    <div className="recipe">
-      <img src={"https://stardewvalleywiki.com" + props.image} alt={props.recipe} height="60" />
-    </div>
-  );
-}
-
-recipesData.map((item, index) => {
-  return(
-    <RecipeImage image={item.image[0]} recipe={item.recipe} />
-  )
-})
-
-function RecipeName(props) {
-  return (
-    <div className="recipeName">
-      <body>{props.recipe}</body>
-    </div>
-  );
-}
-
-const useCounter = (item) => {
-  const [count, setCount] = useState(item.total);
-
-  const increment = () => {
-    setCount(count + 1);
-    const sum = parseFloat(item.total) + 1;
-    item.total = sum;
-  };
-
-  const decrement = () => {
-    setCount(count - 1);
-    const sum = parseFloat(item.total) - 1;
-    item.total = sum;
-  };
-
-  return { count, increment, decrement, item };
-};
-
-const RecipeCounter = ({ item }) => {
-  const { count, increment, decrement } = useCounter(item);
-
-  return (
-    <div>
-      <button onClick={decrement}>-</button>
-      {item.total}
-      <button onClick={increment}>+</button>
+    <div style={{ display: 'block', alignItems: 'center'}}>
+      {/* <img src={"https://stardewvalleywiki.com" + recipe.image[0]} alt={recipe.name} height="60" /> */}
+      <div>
+      <img src={"https://stardewvalleywiki.com" + recipe.image[0]} alt={recipe.name} height="60" />
+        <h4>{recipe.recipe}</h4>
+        <button onClick={onDecrease}>-</button>
+        <span style={{ margin: '0 10px' }}>{count}</span>
+        <button onClick={onIncrease}>+</button>
+      </div>
     </div>
   );
 };
 
-const SubmitButton = (recipesData) => {
+const App = () => {
+  // Use the imported JSON data to initialize the state
+  const [recipeCounts, setRecipeCounts] = useState(
+    recipesData.map(() => 0)
+  );
 
-  const handleSubmit = () => {
-    console.log('Dataset:', recipesData);
+  const handleIncrease = (index) => {
+    const newCounts = [...recipeCounts];
+    newCounts[index]++;
+    setRecipeCounts(newCounts);
   };
 
-  const printIngredientsWithCountGreaterThanZero = () => {
-    recipesData.forEach(recipe => {
-      console.log(`Recipe: ${recipe.recipe}`);
-      recipe.ingredients.forEach(ingredient => {
-        console.log(`- ${ingredient.name}: ${ingredient.count * recipe.total}`);
-      });
-      console.log("------------");
-    });
+  const handleDecrease = (index) => {
+    const newCounts = [...recipeCounts];
+    if (newCounts[index] > 0) {
+      newCounts[index]--;
+    }
+    setRecipeCounts(newCounts);
   };
 
+  const handleConfirm = () => {
+    const nonZeroCounts = recipeCounts
+      .map((count, index) => ({ name: recipesData[index].recipe, count }))
+      .filter(item => item.count > 0);
+
+    console.log('Non-zero Food Counts:', nonZeroCounts);
+  }
 
   return (
-    <div style={{ textAlign: 'center' }}>
-      <button onClick={handleSubmit}>Submit</button>
+    <div>
+      <h1 class="h1">Stardew Helper!</h1>
+      <ul class="flex-container wrap">
+      {recipesData.map((recipe, index) => (
+        <li class="flex-item">
+        <RecipeItem
+          key={index}
+          recipe={recipe}
+          count={recipeCounts[index]}
+          onIncrease={() => handleIncrease(index)}
+          onDecrease={() => handleDecrease(index)}
+        /></li>
+      ))}
+      </ul>
+      <div class="confirm"> 
+        <button onClick={handleConfirm}>Confirm</button>  
+      </div>
     </div>
   );
 };

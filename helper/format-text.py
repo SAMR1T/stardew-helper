@@ -28,7 +28,8 @@ with open('helper/cooking.txt', 'r') as input_file:
         #print(results)
 
         # string that we will extract recipe name from
-        recipe_name_pre_trim = results[3].strip("</a>")
+        #print(results[3])
+        recipe_name_pre_trim = results[3].replace("</a>", "")
         total.append(0)
 
         # for the recipe image
@@ -41,6 +42,7 @@ with open('helper/cooking.txt', 'r') as input_file:
 
         # find the rightmost occurrence of '>'
         index_of_greater_than = recipe_name_pre_trim.rfind('>')
+        #print(recipe_name_pre_trim)
         if index_of_greater_than != -1:
             recipe = recipe_name_pre_trim[index_of_greater_than + 1:].strip()
         #print(recipe)
@@ -78,7 +80,7 @@ with open('helper/cooking.txt', 'r') as input_file:
         #print(ingredients_count)
 
         # now for this data, we need to create an output dictionary to json
-        keys = ['recipe', 'ingredients', 'count', 'image', 'total']
+        keys = ['recipe', 'ingredients', 'value', 'image', 'total']
         values = [recipe, ingredients, ingredients_count, images, total]
         output_dict = {}
 
@@ -86,9 +88,9 @@ with open('helper/cooking.txt', 'r') as input_file:
             output_dict[key] = value
         output_list.append(output_dict)
         #print(output_list)
-        print("\n---\n")  # Add a separator between sections
+        #print("\n---\n")  # Add a separator between sections
 
-    print(output_list)
+    #print(output_list)
 
     json_data = json.dumps(output_list, indent=4)
     json_filename = 'src/recipes.json'

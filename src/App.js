@@ -42,7 +42,11 @@ const App = () => {
       .map((count, index) => ({ name: recipesData[index].recipe, count }))
       .filter(item => item.count > 0);
 
-    console.log('Non-zero Food Counts:', nonZeroCounts);
+    return nonZeroCounts;
+  }
+
+  const getIngredients = () => {
+    console.log('Non-zero Food Counts:', handleConfirm());
   }
 
   return (
@@ -61,7 +65,7 @@ const App = () => {
       ))}
       </ul>
       <div class="confirm"> 
-        <button onClick={handleConfirm}>Confirm</button>  
+        <button onClick={getIngredients}>Confirm</button>  
       </div>
     </div>
   );

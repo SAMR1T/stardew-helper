@@ -1,6 +1,5 @@
 """
 Author: Samrit Dhesi
-Date: 1/25/2024
 The following code uses the contents from the following table on the Cooking page of the Stardew Valley Wiki.
 The HTML contents are copy and pasted into a text doc that is then parsed to create the recipes.json file.
 <table class ="wikitable sortable roudedboarder jquery-tablesorter">...<table>
@@ -8,7 +7,7 @@ The HTML contents are copy and pasted into a text doc that is then parsed to cre
 import os
 import json
 
-with open('helper/cooking.txt', 'r') as input_file:
+with open('helper/cooking.txt', 'r', encoding='utf-8') as input_file:
     content = input_file.read()
     output_list = []
 
@@ -31,12 +30,14 @@ with open('helper/cooking.txt', 'r') as input_file:
         #print(results[3])
         recipe_name_pre_trim = results[3].replace("</a>", "")
         total.append(0)
+        #print(recipe_name_pre_trim)
 
         # for the recipe image
         recipe_image_pre_trim = results[1].split('src="')
         recipe_image_pre_trim.pop(0)
         #print(recipe_image_pre_trim)
-        recipe_image_split = recipe_image_pre_trim[0].split('"')
+        if recipe_image_pre_trim:
+            recipe_image_split = recipe_image_pre_trim[0].split('"')
         images.append(recipe_image_split[0])
         #print(recipe_image_split[0])
 
@@ -75,6 +76,7 @@ with open('helper/cooking.txt', 'r') as input_file:
         # find the leftmost occurrence of '.'
         for j, sub_count in enumerate(ingredients_count_pre_trim):
             ingredient_count_split = sub_count.split(')')
+            #print(ingredient_count_split[0])
             if ingredient_count_split[0] != 'Any':
                 ingredients_count.append(ingredient_count_split[0])
         #print(ingredients_count)

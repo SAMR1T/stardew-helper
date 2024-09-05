@@ -1625,5 +1625,21 @@
         "total": [
             0
         ]
+    },
+    {
+        "recipe": "Moss Soup",
+        "ingredients": [
+            "Moss"
+        ],
+        "numof": [
+            "20"
+        ],
+        "image": [
+            "/mediawiki/images/d/df/Moss_Soup.png",
+            "/mediawiki/images/thumb/6/64/Moss.png/24px-Moss.png"
+        ],
+        "total": [
+            0
+        ]
     }
 ]

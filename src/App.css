@@ -50,7 +50,8 @@
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .nowrap  { 
@@ -62,7 +63,8 @@
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   max-height: 650px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }  
 .wrap li {
   background: rgb(255, 242, 166);
@@ -91,6 +93,7 @@
   text-align: center;
   white-space: nowrap;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .h1 {

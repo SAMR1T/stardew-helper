@@ -80,7 +80,7 @@ with open('helper/cooking.txt', 'r') as input_file:
         #print(ingredients_count)
 
         # now for this data, we need to create an output dictionary to json
-        keys = ['recipe', 'ingredients', 'value', 'image', 'total']
+        keys = ['recipe', 'ingredients', 'numof', 'image', 'total']
         values = [recipe, ingredients, ingredients_count, images, total]
         output_dict = {}
 

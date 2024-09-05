@@ -5,7 +5,7 @@
             "Egg",
             "Milk"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -25,7 +25,7 @@
             "Dandelion",
             "Vinegar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -46,7 +46,7 @@
             "Cauliflower",
             "Cheese"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -66,7 +66,7 @@
             "Bream",
             "Wheat Flour"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -88,7 +88,7 @@
             "Milk",
             "Vinegar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -109,7 +109,7 @@
             "Tomato",
             "Beet"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -130,7 +130,7 @@
             "Hashbrowns",
             "Pancakes"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -154,7 +154,7 @@
             "Wheat Flour",
             "Oil"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -176,7 +176,7 @@
             "Periwinkle",
             "Void Mayonnaise"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -198,7 +198,7 @@
             "Tortilla",
             "Blue Jazz"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -220,7 +220,7 @@
             "Morel",
             "Oil"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -242,7 +242,7 @@
             "Tomato",
             "Cheese"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -262,7 +262,7 @@
         "ingredients": [
             "Green Bean"
         ],
-        "value": [
+        "numof": [
             "2"
         ],
         "image": [
@@ -279,7 +279,7 @@
             "Yam",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -297,7 +297,7 @@
         "ingredients": [
             "Carp"
         ],
-        "value": [
+        "numof": [
             "4"
         ],
         "image": [
@@ -314,7 +314,7 @@
             "Potato",
             "Oil"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -333,7 +333,7 @@
             "Wheat Flour",
             "Egg"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -353,7 +353,7 @@
             "Amaranth",
             "Kale"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -376,7 +376,7 @@
             "Red Cabbage",
             "Mayonnaise"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -400,7 +400,7 @@
             "Wheat Flour",
             "Oil"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -421,7 +421,7 @@
             "Hot Pepper",
             "Cheese"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -439,7 +439,7 @@
         "ingredients": [
             "Wheat Flour"
         ],
-        "value": [
+        "numof": [
             "1"
         ],
         "image": [
@@ -457,7 +457,7 @@
             "Shrimp",
             "Common Mushroom"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -478,7 +478,7 @@
             "Rainbow Trout",
             "Green Algae"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -498,7 +498,7 @@
             "Sugar",
             "Egg"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -521,7 +521,7 @@
             "Sugar",
             "Egg"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -545,7 +545,7 @@
             "Wheat Flour",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -567,7 +567,7 @@
             "Sugar",
             "Egg"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -588,7 +588,7 @@
             "Wheat Flour",
             "Tomato"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -607,7 +607,7 @@
             "Eel",
             "Oil"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -626,7 +626,7 @@
             "Eel",
             "Hot Pepper"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -644,7 +644,7 @@
         "ingredients": [
             "Fish"
         ],
-        "value": [
+        "numof": [
             "1"
         ],
         "image": [
@@ -662,7 +662,7 @@
             "Seaweed",
             "Rice"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -682,7 +682,7 @@
         "ingredients": [
             "Corn"
         ],
-        "value": [
+        "numof": [
             "1"
         ],
         "image": [
@@ -699,7 +699,7 @@
             "Red Cabbage",
             "Radish"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -718,7 +718,7 @@
             "Eggplant",
             "Tomato"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -738,7 +738,7 @@
             "Sugar",
             "Rice"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -759,7 +759,7 @@
             "Milk",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -780,7 +780,7 @@
             "Sugar",
             "Egg"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -803,7 +803,7 @@
             "Yam",
             "Pumpkin"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -822,7 +822,7 @@
             "Pumpkin",
             "Milk"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -842,7 +842,7 @@
             "Cranberries",
             "Artichoke"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -863,7 +863,7 @@
             "Cranberries",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -883,7 +883,7 @@
             "Cranberries",
             "Hazelnut"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -904,7 +904,7 @@
             "Omelet",
             "Parsnip"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -924,7 +924,7 @@
             "Cave Carrot",
             "Eggplant"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -945,7 +945,7 @@
             "Sardine",
             "Hashbrowns"
         ],
-        "value": [
+        "numof": [
             "2",
             "1"
         ],
@@ -965,7 +965,7 @@
             "Sugar",
             "Milk"
         ],
-        "value": [
+        "numof": [
             "2",
             "1",
             "1"
@@ -986,7 +986,7 @@
             "Cave Carrot",
             "Winter Root"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -1004,7 +1004,7 @@
         "ingredients": [
             "Coffee"
         ],
-        "value": [
+        "numof": [
             "3"
         ],
         "image": [
@@ -1022,7 +1022,7 @@
             "Midnight Carp",
             "Squid Ink"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1042,7 +1042,7 @@
         "ingredients": [
             "Green Algae"
         ],
-        "value": [
+        "numof": [
             "4"
         ],
         "image": [
@@ -1058,7 +1058,7 @@
         "ingredients": [
             "White Algae"
         ],
-        "value": [
+        "numof": [
             "2"
         ],
         "image": [
@@ -1076,7 +1076,7 @@
             "Wheat Flour",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "2",
             "1",
             "1"
@@ -1097,7 +1097,7 @@
             "Artichoke",
             "Milk"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -1118,7 +1118,7 @@
             "Kale",
             "Oil"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -1140,7 +1140,7 @@
         "ingredients": [
             "Hazelnut"
         ],
-        "value": [
+        "numof": [
             "3"
         ],
         "image": [
@@ -1159,7 +1159,7 @@
             "Milk",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -1183,7 +1183,7 @@
             "Vinegar",
             "Radish"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1205,7 +1205,7 @@
             "Melon",
             "Apricot"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1227,7 +1227,7 @@
             "Sugar",
             "Wheat Flour"
         ],
-        "value": [
+        "numof": [
             "2",
             "1",
             "1"
@@ -1249,7 +1249,7 @@
             "Apple",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1271,7 +1271,7 @@
             "Oil",
             "Tomato"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1293,7 +1293,7 @@
             "Vinegar",
             "Mayonnaise"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1315,7 +1315,7 @@
             "Fiddlehead Fern",
             "Garlic"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1337,7 +1337,7 @@
             "Wheat Flour",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1358,7 +1358,7 @@
             "Clam",
             "Milk"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -1379,7 +1379,7 @@
             "Periwinkle",
             "Tomato"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -1402,7 +1402,7 @@
             "Snail",
             "Garlic"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -1421,7 +1421,7 @@
             "Lobster",
             "Milk"
         ],
-        "value": [
+        "numof": [
             "1",
             "1"
         ],
@@ -1441,7 +1441,7 @@
             "Sugar",
             "Wheat Flour"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1464,7 +1464,7 @@
             "Egg",
             "Oil"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1",
@@ -1488,7 +1488,7 @@
             "Shrimp",
             "Wild Horseradish"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1509,7 +1509,7 @@
             "Ginger",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "3",
             "1"
         ],
@@ -1529,7 +1529,7 @@
             "Milk",
             "Sugar"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1551,7 +1551,7 @@
             "Coconut",
             "Rice"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1571,7 +1571,7 @@
         "ingredients": [
             "Taro Root"
         ],
-        "value": [
+        "numof": [
             "4"
         ],
         "image": [
@@ -1589,7 +1589,7 @@
             "Pineapple",
             "Hot Pepper"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"
@@ -1611,7 +1611,7 @@
             "Wheat Flour",
             "Tomato"
         ],
-        "value": [
+        "numof": [
             "1",
             "1",
             "1"

@@ -77,6 +77,11 @@ const App = () => {
     setTotalIngredients(totalIngredients);
   };
 
+  const handleClear = () => {
+    const resetCounts = recipeCounts.map(() => 0); // Set all counts to 0
+    setRecipeCounts(resetCounts);
+  };
+
   // const getIngredients = () => {
   //   const recipesSelected = handleConfirm();
   //   console.log('Non-zero Food Counts:', recipesSelected());
@@ -106,28 +111,43 @@ const App = () => {
       </ul>
       <div class="confirm"> 
         <button onClick={handleConfirm}>Confirm</button>  
+        <button onClick={handleClear} style={{ marginLeft: '10px' }}>Clear</button>  
       </div>
       <div style={{ marginTop: '20px' }}>
         {displayData.length > 0 && (
-          <div>
-            <h2>Selected Recipes:</h2>
-            {displayData.map((recipe, index) => (
-              <div key={index} style={{ marginBottom: '20px' }}>
-                <h3>{recipe.name} - {recipe.count}</h3>
-                <ul>
-                  {recipe.ingredients.map((ingredient, i) => (
-                    <li key={i}>
-                      {ingredient}: {recipe.numof[i]}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-            <div>
-              <h2>Total Ingredients Needed:</h2>
-              <ul>
+          <div class="f-container">
+            <div class="f-child one">
+              <h2 class="header">Selected Recipes</h2>
+            </div>
+            <div class="f-child one">
+              <h2 class="header">Total Ingredients Needed</h2>
+            </div>
+          </div>
+        )}
+      </div>
+      <div style={{ marginTop: '20px' }}>
+        {displayData.length > 0 && (
+          <div class="f-container">
+            <div class="f-child one">
+              {/* <h2 class="header">Selected Recipes:</h2> */}
+              {displayData.map((recipe, index) => (
+                <div key={index} style={{ marginBottom: '20px' }}>
+                  <h3 class="recipeName">{recipe.name} - {recipe.count}</h3>
+                  <ul class="ingredients">
+                    {recipe.ingredients.map((ingredient, i) => (
+                      <li key={i} class="ingredients">
+                        {ingredient}: {recipe.numof[i]}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+            <div class="f-child two">
+              {/* <h2 class="header">Total Ingredients Needed:</h2> */}
+              <ul class="ingredients">
                 {Object.entries(totalIngredients).map(([ingredient, total], index) => (
-                  <li key={index}>
+                  <li key={index} >
                     {ingredient}: {total}
                   </li>
                 ))}

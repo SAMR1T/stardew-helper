@@ -104,3 +104,32 @@
 {
   text-align: center;
 }
+
+.f-container {
+  display:flex;
+}
+
+.f-child {
+  flex: 1;
+  border: 2px solid yellow;
+  margin-left: 15%;
+  margin-right: 15%;
+  max-height: 300px;
+  overflow: auto;
+}  
+
+.f-child:first-child {
+  margin-right: 0px;
+}
+
+.header {
+  text-align: center;
+}
+
+.recipeName {
+  margin-left: 15%;
+}
+
+.ingredients {
+  margin-left: 25px;
+}

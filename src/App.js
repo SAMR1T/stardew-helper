@@ -55,6 +55,7 @@ const App = () => {
       .map((count, index) => ({ 
         name: sortedRecipesData[index].recipe, 
         count, 
+        image: sortedRecipesData[index].image,
         ingredients: sortedRecipesData[index].ingredients,
         numof: (sortedRecipesData[index].numof || []).map(value => multiplyValue(value, count))
       }))
@@ -132,11 +133,11 @@ const App = () => {
               {/* <h2 class="header">Selected Recipes:</h2> */}
               {displayData.map((recipe, index) => (
                 <div key={index} style={{ marginBottom: '20px' }}>
-                  <h3 class="recipeName">{recipe.name} - {recipe.count}</h3>
+                  <h3 class="recipeName"><img src={"https://stardewvalleywiki.com" + recipe.image[0]} alt={recipe.name} height="20px"/> {recipe.name} - {recipe.count}</h3>
                   <ul class="ingredients">
                     {recipe.ingredients.map((ingredient, i) => (
                       <li key={i} class="ingredients">
-                        {ingredient}: {recipe.numof[i]}
+                        <img src={"https://stardewvalleywiki.com" + recipe.image[i+1]} alt={recipe.name} height="15px"/> {ingredient}: {recipe.numof[i]}
                       </li>
                     ))}
                   </ul>
@@ -147,9 +148,11 @@ const App = () => {
               {/* <h2 class="header">Total Ingredients Needed:</h2> */}
               <ul class="ingredients">
                 {Object.entries(totalIngredients).map(([ingredient, total], index) => (
-                  <li key={index} >
-                    {ingredient}: {total}
-                  </li>
+                  // <li key={index} >
+                  <div>
+                    <text class="totalList">{ingredient}: {total}</text><br></br><br></br>
+                  </div>
+                  // </li>
                 ))}
               </ul>
             </div>

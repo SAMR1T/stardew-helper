@@ -62,7 +62,7 @@
 .wrap    { 
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  max-height: 475px;
+  max-height: 450px;
   overflow-y: scroll;
   overflow-x: hidden;
 }  
@@ -78,26 +78,40 @@
   background: deepskyblue;
 }
 
+@font-face {
+  font-family: 'StardewValley';
+  src: url('/fonts/StardewValley.ttf');
+}
+
 .flex-item {
   display: block;
   background: tomato;
   padding: 2%;
   width: 15.80%;
   height: 10%;
-  margin: .1%;
+  margin: .1%; /* adds the boxes */
   
   line-height: 0%;
   color: black;
-  font-weight: bold;
-  font-size: 15px;
+  font-size: 23px;
+  font-family: 'StardewValley';
   text-align: center;
   white-space: nowrap;
   overflow: auto;
   overflow-x: hidden;
 }
 
+.initialRecipe{
+  font-family: 'StardewValley';
+  font-weight: normal;
+  font-size: 26px;
+  text-align: center;
+}
+
 .h1 {
   text-align: center;
+  font-family: 'StardewValley';
+  font-size: 55px;
 }
 
 .confirm
@@ -112,12 +126,10 @@
 .f-child {
   flex: 1;
   border: 2px solid yellow;
-  margin-left: 15%;
-  margin-right: 15%;
-  max-height: 250px;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 450px;
   overflow: auto;
-  padding: 0;
-  margin-top: 0%;
 }  
 
 .f-child:first-child {
@@ -126,23 +138,33 @@
 
 .header {
   text-align: center;
-  padding: 0%;
-  margin: 0%;
+  font-family: 'StardewValley';
+  font-size: 40px;
+  margin: 5px;
 }
 
 .recipeName {
-  margin-left: 15%;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin-left: 10%;
+  margin-bottom: 0;
+  margin-top: 2%;
+  font-family: 'StardewValley';
+  font-size: 35px;
 }
 
 .ingredients {
-  margin-left: 25px;
-  margin-top: 5px;
+  margin-left: 6%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-family: 'StardewValley';
+  font-size: 30px;
+  list-style-type: none;
 }
 
 .totalList{
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 18px;
+  margin-left: 0%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-family: 'StardewValley';
+  font-size: 35px;
+  list-style-type: none;
 }

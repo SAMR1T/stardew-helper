@@ -10,7 +10,7 @@ const RecipeItem = ({ recipe, count, onIncrease, onDecrease }) => {
       {/* <img src={"https://stardewvalleywiki.com" + recipe.image[0]} alt={recipe.name} height="60" /> */}
       <div>
       <img src={"https://stardewvalleywiki.com" + recipe.image[0]} alt={recipe.name} height="60" />
-        <h4>{recipe.recipe}</h4>
+        <h4 class="initialRecipe">{recipe.recipe}</h4>
         <button onClick={onDecrease}>-</button>
         <span style={{ margin: '0 10px' }}>{count}</span>
         <button onClick={onIncrease}>+</button>
@@ -62,15 +62,38 @@ const App = () => {
       .filter(item => item.count > 0);
 
     setDisplayData(nonZeroCounts);
+
+    const getFirstWord = (ingredient) => {
+      return ingredient.split(' ')[0].toLowerCase(); // Get the first word, converted to lowercase
+    };
+    
+    // Function to find the image based on the first word of the ingredient
+    const findImageForIngredient = (ingredient, images) => {
+      const firstWord = getFirstWord(ingredient);
+    
+      // Loop through images starting from index 1 (excluding index 0)
+      for (let i = 1; i < images.length; i++) {
+        if (images[i].toLowerCase().includes(firstWord)) {
+          return images[i]; // Return the first image that contains the first word of the ingredient
+        }
+      }
+    
+      // If no matching image is found, return a default or fallback image
+      return images[1] || ''; // Fall back to the second image or an empty string
+    };
     
     // Calculate total ingredients
     const totalIngredients = {};
     nonZeroCounts.forEach(recipe => {
       recipe.ingredients.forEach((ingredient, index) => {
+        const selectedImage = findImageForIngredient(ingredient, recipe.image);
         if (totalIngredients[ingredient]) {
-          totalIngredients[ingredient] += parseFloat(recipe.numof[index]);
+          totalIngredients[ingredient].quantity += parseFloat(recipe.numof[index]);
         } else {
-          totalIngredients[ingredient] = parseFloat(recipe.numof[index]);
+          totalIngredients[ingredient] = {
+            quantity: parseFloat(recipe.numof[index]),
+            image: selectedImage
+          };
         }
       });
     });
@@ -97,7 +120,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 class="h1">Stardew Helper!</h1>
+      <h1 class="h1">Stardew Recipe Helper!</h1>
       <ul class="flex-container wrap">
       {sortedRecipesData.map((recipe, index) => (
         <li class="flex-item">
@@ -133,11 +156,11 @@ const App = () => {
               {/* <h2 class="header">Selected Recipes:</h2> */}
               {displayData.map((recipe, index) => (
                 <div key={index} style={{ marginBottom: '20px' }}>
-                  <h3 class="recipeName"><img src={"https://stardewvalleywiki.com" + recipe.image[0]} alt={recipe.name} height="20px"/> {recipe.name} - {recipe.count}</h3>
+                  <h3 class="recipeName"><img src={"https://stardewvalleywiki.com" + recipe.image[0]} alt={recipe.name} height="35px"/> {recipe.name} - {recipe.count}</h3>
                   <ul class="ingredients">
                     {recipe.ingredients.map((ingredient, i) => (
                       <li key={i} class="ingredients">
-                        <img src={"https://stardewvalleywiki.com" + recipe.image[i+1]} alt={recipe.name} height="15px"/> {ingredient}: {recipe.numof[i]}
+                        <img src={"https://stardewvalleywiki.com" + recipe.image[i+1]} alt={recipe.name} height="30px"/> {ingredient}: {recipe.numof[i]}
                       </li>
                     ))}
                   </ul>
@@ -147,10 +170,10 @@ const App = () => {
             <div class="f-child two">
               {/* <h2 class="header">Total Ingredients Needed:</h2> */}
               <ul class="ingredients">
-                {Object.entries(totalIngredients).map(([ingredient, total], index) => (
+                {Object.entries(totalIngredients).map(([ingredient, data], index) => (
                   // <li key={index} >
                   <div>
-                    <text class="totalList">{ingredient}: {total}</text><br></br><br></br>
+                    <text class="totalList"><img src={"https://stardewvalleywiki.com" + data.image} height="35px"/> {ingredient}: {data.quantity}</text><br></br><br></br>
                   </div>
                   // </li>
                 ))}

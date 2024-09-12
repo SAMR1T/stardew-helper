@@ -169,11 +169,11 @@ const App = () => {
             </div>
             <div class="f-child two">
               {/* <h2 class="header">Total Ingredients Needed:</h2> */}
-              <ul class="ingredients">
+              <ul>
                 {Object.entries(totalIngredients).map(([ingredient, data], index) => (
                   // <li key={index} >
                   <div>
-                    <text class="totalList"><img src={"https://stardewvalleywiki.com" + data.image} height="35px"/> {ingredient}: {data.quantity}</text><br></br><br></br>
+                    <text class="totalList"><img src={"https://stardewvalleywiki.com" + data.image} alt={data.image} height="35px"/> {ingredient}: {data.quantity}</text><br></br><br></br>
                   </div>
                   // </li>
                 ))}

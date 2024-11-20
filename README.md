@@ -2,6 +2,9 @@
 
 Have you ever tried to complete perfection in Stardew Valley and then remember you still need to cook every recipe in the game? Well that's exactly what happened to me and my friends. We were writing notes everyday of what recipes we still need to cook and how many ingredients we still need. I thought to myself I wish there was just a website I could enter how many recipes I need that would output how many ingredients I need in total. Of course that didn't exist. So I created it.
 
+![image](https://github.com/user-attachments/assets/00ccd081-df7d-48c7-bf4c-bacf116caf8c)
+
+
 ## Instructions
 
 Use the '+' button to add recipes that you need to the ingredients for.
